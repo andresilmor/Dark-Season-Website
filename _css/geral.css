@@ -1,0 +1,72 @@
+body {
+    background:rgb(0,0,0);
+    color: rgb(230,230,230);
+}
+
+div.menu-background {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    line-height:10%; 
+    width:26%;
+    height: 100%;
+    border: hidden;
+    background-color: black;
+    opacity: 0.94;
+}
+
+a.no-link {
+    text-decoration: none;
+    color: rgb(230,230,230);
+}
+
+a.no-link:hover {
+    color: #AA1A18;
+}
+
+.menu-arrow {
+    position: fixed;
+    top: 5%;
+    left: 1.5%;
+    height: 10%;
+    width: 3%;
+    opacity: 0.6;
+}
+
+.menu-arrow:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.menu-tb {
+    position: fixed;
+    top: 10%;
+    font-size: 150%;
+}
+
+.menu-line {
+    position: relative;
+    left: 55%;
+}
+
+.menu-option {
+    padding-top: 25%;
+    padding-bottom: 25%;
+    text-align: center;
+}
+
+#id-menu {
+    visibility: hidden;
+}
+
+.no-js #loader { display: none;  }
+
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+
+.loading {
+    position: fixed;
+    top: 4.3%;
+    left: 15%;
+    size: -2%;
+}
+

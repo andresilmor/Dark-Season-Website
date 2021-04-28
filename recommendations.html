@@ -1,0 +1,90 @@
+<DOCTYPE!>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Recommendations</title>
+	<link rel="stylesheet" href="_css/recommendation.css">
+	<link rel="stylesheet" href="_css/geral.css">
+	<link rel="icon" href="_img/icon32.png"/>	
+	<script src="_javascript/functions.js"></script>
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+	<script type="text/javascript" src="_javascript/jquery.hislide.js" ></script>
+</head>
+
+<body>
+
+	<img src="_img/recommendationsIMG.png" class="back-img">
+
+	<div class="slide hi-slide">
+		<div class="hi-prev "></div>
+		<div class="hi-next "></div>
+		<ul>
+			<li><img src="_img/img1.jpg" alt="Img 1" /></li>
+			<li><img src="_img/img2.jpg" alt="Img 2" /></li>
+			<li><img src="_img/img3.jpg" alt="Img 3" /></li>
+			<li><img src="_img/img4.jpg" alt="Img 4" /></li>
+			<li><img src="_img/img5.jpg" alt="Img 5" /></li>
+			<li><img src="_img/img6.jpg" alt="Img 6" /></li>
+			<li><img src="_img/img7.jpg" alt="Img 7" /></li>
+		</ul>
+	</div>
+		
+	<script>
+		$('.slide').hiSlide();
+	</script>
+
+	<table class="submission">
+		<tr>
+			<td>
+				<h4>Submit your Recommendation!</h4>
+				<form>
+					Name:<br>
+					<input type="text" name="name"><br>
+					Type:<br>
+					<input type="text" name="type"><br>
+					Link:<br>
+					<input type="text" name="link">
+					<input type="submit" value="Sent">
+				</form>
+			</td>
+		</tr>
+	</table>
+
+	<div class="menu">
+		<div id="id-menu">
+			<div class="menu-background"></div>
+			<table class="menu-tb">
+				<tr class="menu-line">
+					<td class="menu-option">
+						<a href="index.html" class="no-link">Quote</a>
+					</td>
+				</tr>
+				<tr class="menu-line">
+					<td class="menu-option">
+						<a href="what-is-horror.html" class="no-link">What is Horror</a> 
+					</td>
+				</tr>
+				<tr class="menu-line">
+					<td class="menu-option">
+						<a href="how-to-survive.html" class="no-link">How to Survive</a>
+					</td>
+				</tr>
+				<tr class="menu-line">
+					<td class="menu-option">
+						<a href="recommendations.html" class="no-link">Recommendations</a> 
+					</td>
+				</tr>
+				<tr class="menu-line">
+					<td class="menu-option">
+						<a href="genrestree.html" class="no-link">Genres Tree</a>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div onclick="showM()"><img src="_img/arrow-right.png" class="menu-arrow"id="id-arrow"></div>
+	</div>
+
+</body>
+    
+</html>

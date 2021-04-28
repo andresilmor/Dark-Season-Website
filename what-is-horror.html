@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>What is Horror</title>
+  <link rel="stylesheet" href="_css/what-is-horror.css">
+  <link rel="stylesheet" href="_css/geral.css">
+  <script src="_javascript/functions.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+  <link rel="icon" href="_img/icon32.png"/>
+  <script>
+    $(window).on("load", function() 
+    {
+        $(".loading").fadeOut("slow");;
+    });
+  </script>
+</head>
+
+<body>
+  
+  <img id="wallpaper" src="_img/descriptionIMG.png" style="width: 70%;">
+
+  <div class="slidershow">
+    <div class="slides">
+      <input type="radio" name="r" id="r1" >
+      <input type="radio" name="r" id="r2">
+      <input type="radio" name="r" id="r3">
+      <input type="radio" name="r" id="r4">
+	    <input type="radio" name="r" id="r5">
+		
+      <div class="slide s1">
+        <img src="_img/board1.png" alt="">
+      </div>
+		
+      <div class="slide">
+        <img src="_img/board2.png" alt="">
+      </div>
+		
+      <div class="slide">
+        <img src="_img/board3.png" alt="">
+      </div>
+		
+      <div class="slide">
+        <img src="_img/board4.png" alt="">
+      </div>
+		
+		  <div class="slide">
+        <img src="_img/board5.png" alt="">
+      </div>	
+    </div>
+
+    <div class="navigation">
+      <label for="r1" class="bar" id="r1C" onclick="barSelected('r1C')"></label>
+      <label for="r2" class="bar" id="r2C" onclick="barSelected('r2C')"></label>
+      <label for="r3" class="bar" id="r3C" onclick="barSelected('r3C')"></label>
+      <label for="r4" class="bar" id="r4C" onclick="barSelected('r4C')"></label>
+	    <label for="r5" class="bar" id="r5C" onclick="barSelected('r5C')"></label>
+    </div>
+  </div>
+
+  <div class="menu">
+    <div id="id-menu">
+        <div class="menu-background"></div>
+        <table class="menu-tb">
+              <tr class="menu-line">
+                  <td class="menu-option">
+                      <a href="index.html" class="no-link">Quote</a>
+                  </td>
+              </tr>
+              <tr class="menu-line">
+                  <td class="menu-option">
+                      <a href="what-is-horror.html" class="no-link">What is Horror</a> 
+                  </td>
+              </tr>
+              <tr class="menu-line">
+                  <td class="menu-option">
+                      <a href="how-to-survive.html" class="no-link">How to Survive</a>
+                  </td>
+              </tr>
+              <tr class="menu-line">
+                  <td class="menu-option">
+                      <a href="recommendations.html" class="no-link">Recommendations</a> 
+                  </td>
+              </tr>
+              <tr class="menu-line">
+                  <td class="menu-option">
+                      <a href="genrestree.html" class="no-link">Genres Tree</a>
+                  </td>
+              </tr>
+          </table>
+      </div>
+      <div onclick="showM()"><img src="_img/arrow-right.png" class="menu-arrow"id="id-arrow"></div>
+  </div>
+
+  </body>
+  
+</html>

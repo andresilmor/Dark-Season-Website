@@ -1,0 +1,75 @@
+<DOCTYPE!>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Dark Season</title>
+    <link rel="stylesheet" href="_css/quote.css"/>
+    <link rel="stylesheet" href="_css/geral.css"/>
+    <link rel="icon" href="_img/icon32.png">
+    <script src="_javascript/functions.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+    <script>
+         $(window).on("load", function() 
+        {
+            $(".loading").fadeOut("slow");;
+        });
+        setTimeout(fixAnimationQuote,1500);
+    </script>
+</head>
+
+<body>
+    <img src="_img/logo-animation.gif" class="loading">
+
+    <img src="_img/quoteIMG.png" class="back-img">
+
+    <div class="quote">
+        <div class="text-top" id="id-text-top">
+            <p><h1>&quot;I actually think there's a lot of truth in the<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;masochism explanation for going to movies,</h1></p>
+            <div id="id-text-bottom">
+                <p>...actually I do, I think that, there's something just about sitting passibly in one room,<br>laying back and having images come out and making you feel things, jerking your tears, right?<br>Or making you scream or cover your eyes.&quot;<br>
+                <div style="margin-top: -2%;">
+                    <font size="2%">Carol J. Clover, <a target="_blank" href="https://www.imdb.com/title/tt0800361/"><i>S&amp;man</i></a></font></p>
+                </div>
+            </div>
+        </div>
+    </div>     
+   
+    <div class="menu">
+        <div id="id-menu">
+            <div class="menu-background"></div>
+            <table class="menu-tb">
+                <tr class="menu-line">
+                    <td class="menu-option">
+                        <a href="index.html" class="no-link">Quote</a>
+                    </td>
+                </tr>
+                <tr class="menu-line">
+                    <td class="menu-option">
+                        <a href="what-is-horror.html" class="no-link">What is Horror</a> 
+                    </td>
+                </tr>
+                <tr class="menu-line">
+                    <td class="menu-option">
+                        <a href="how-to-survive.html" class="no-link">How to Survive</a>
+                    </td>
+                </tr>
+                <tr class="menu-line">
+                    <td class="menu-option">
+                        <a href="recommendations.html" class="no-link">Recommendations</a> 
+                    </td>
+                </tr>
+                <tr class="menu-line">
+                    <td class="menu-option">
+                        <a href="genrestree.html" class="no-link">Genres Tree</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div onclick="showM()"><img src="_img/arrow-right.png" class="menu-arrow"id="id-arrow"></div>
+    </div>
+
+</body>
+
+</html>

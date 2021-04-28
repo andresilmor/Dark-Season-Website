@@ -1,0 +1,19 @@
+.tree {
+    position: absolute;
+    left: 5.5%;
+    top: 5%;
+    opacity: 0.85;
+}
+
+#creator {
+    position: absolute;
+    top: 4%;
+    left: 31%;
+}
+
+.back-img {
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    width: 95%;
+}

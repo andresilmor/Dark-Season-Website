@@ -1,0 +1,109 @@
+body{    
+	background-color: #000000;
+    font-family: ;
+}
+        
+body
+h1 { 
+	margin:150px auto 30px auto; 
+	text-align:center; 
+	color:#fff;
+}
+
+.submission {
+	position: absolute;
+	left: 7%;
+	bottom: 5%;
+}
+
+.back-img {
+	position: fixed;
+	right: 0%;
+	top: 0%;
+	width: 73%;
+}
+   
+.hi-slide { 
+	position: relative; 
+	width: 1200px; 
+	height: 292px;
+	margin: 220px auto 0;
+}
+            
+.hi-slide .hi-next,
+.hi-slide .hi-prev { 
+	position: absolute;
+	top: 50%; 
+	width: 40px;
+	height: 40px; 
+	margin-top: -20px;     
+	border-radius: 50px;           
+	line-height: 40px;
+	text-align: center; 
+	cursor: pointer;
+	background-color: #000;
+	color: #fff;               
+	transition: all 0.6s;
+	font-size: 35px; 
+	font-weight: bold;
+}
+
+.hi-slide .hi-next:hover,
+.hi-slide .hi-prev:hover {
+	color: #AA1A18;
+}
+
+.hi-slide .hi-next:hover, 
+.hi-slide .hi-prev:hover {
+	opacity: 1; 
+	background-color: #000;  
+}
+            
+.hi-slide .hi-prev { 
+	left: -60px; 
+}
+            
+.hi-slide .hi-prev::before { 
+	font-family: 'Arial Black', sans-serif;
+	content: '<';
+}
+
+.hi-slide .hi-next { 
+	right: 385px; 
+}
+
+.hi-slide .hi-next::before { 
+	font-family: 'Arial Black', sans-serif;
+	content: '>'; 
+}
+    
+.hi-slide > ul { 
+	list-style: none; 
+	position: fixed;
+	width: 754px; 
+	height: 292px; 
+	margin: 0;
+	padding: 0;
+}
+            
+            
+.hi-slide > ul > li {
+    overflow: hidden; 
+    position: absolute; 
+    z-index: 0; 
+	left: 377px;
+	top: 146px; 
+	width: 0; 
+	height: 0; 
+	margin: 0; 
+	padding: 0;             
+	background-color: #333; 
+	cursor: pointer; 
+}
+            
+.hi-slide > ul > li > img { 
+	width: 100%; 
+	height: 100%; 
+	background-position: center;
+}
+            

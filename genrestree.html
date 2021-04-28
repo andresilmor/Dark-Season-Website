@@ -1,0 +1,67 @@
+<DOCTYPE!>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Genres Tree</title>
+    <link rel="stylesheet" href="_css/genres-tree.css">
+    <link rel="stylesheet" href="_css/geral.css">
+    <link rel="icon" href="_img/icon32.png">
+    <script src="_javascript/functions.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+    <script>
+        $(window).on("load", function() 
+        {
+            $(".loading").fadeOut("fast");;
+        });
+    </script>
+</head>
+
+<body>
+    <img src="_img/genrestreeIMG.png" class="back-img">
+    <table>
+        <tr>
+            <td>
+    <img src="_img/genre-tree.png" class="tree">
+    <h2 id="creator">By <i>Horror On Screen</i></h2>
+            </td>
+        </tr>
+    </table>
+    <div class="menu">
+        <div id="id-menu">
+            <div class="menu-background"></div>
+            <table class="menu-tb">
+                <tr class="menu-line">
+                    <td class="menu-option">
+                        <a href="index.html" class="no-link">Quote</a>
+                    </td>
+                </tr>
+                <tr class="menu-line">
+                    <td class="menu-option">
+                        <a href="what-is-horror.html" class="no-link">What is Horror</a> 
+                    </td>
+                </tr>
+                <tr class="menu-line">
+                    <td class="menu-option">
+                        <a href="how-to-survive.html" class="no-link">How to Survive</a>
+                    </td>
+                </tr>
+                <tr class="menu-line">
+                    <td class="menu-option">
+                        <a href="recommendations.html" class="no-link">Recommendations</a> 
+                    </td>
+                </tr>
+                <tr class="menu-line">
+                    <td class="menu-option">
+                        <a href="genres-tree.html" class="no-link">Genres Tree</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div onclick="showM()"><img src="_img/arrow-right.png" class="menu-arrow"id="id-arrow"></div>
+    </div>
+
+</body>
+</html>
